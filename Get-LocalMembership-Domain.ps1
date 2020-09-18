@@ -34,7 +34,7 @@ if ($domain.Count -eq 3)
 }
 
 
-$Servers=Get-ADComputer -Filter * -SearchBase "ou=Servers,dc=$($domain[0]),dc=$($domain[1])" -Properties Name, DistinguishedName | Select-Object -Property Name,DistinguishedName
+
 $AdminExport="C:\Temp\Local Group Membership\LocalAdminMembership.csv"
 $RDP_UsersExport="C:\Temp\Local Group Membership\RemoteDesktop.csv"
 
