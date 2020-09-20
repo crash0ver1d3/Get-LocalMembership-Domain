@@ -4,6 +4,4 @@ that you would like to query/monitor. If you would like to query/monitor multipl
 1.Create a block for each OU. You will also need to define a new variable to store output to for each OU that your are querying/monitoring.
 2.Create detection to identify OUs that have computer objects, create an output file for each one, and iterate through those OUs.
 
-I plan to add option number 2 when time allows.
-
-Blake
+Future plans to add option number 2
